@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block admin/backend folders (if any)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /tmp/
+Disallow: /private/
+
+Sitemap: https://abhireducationalfoundation.org/sitemap.xml
